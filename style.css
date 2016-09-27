@@ -1,0 +1,61 @@
+/* Styles go here */
+table{
+  border-collapse: collapse;
+  table-layout: fixed; /* Фиксированная ширина ячеек */
+  width: 100%; /* Ширина таблицы */
+      }
+td {
+    text-align: center; /* Выравнивание по центру */
+    border-bottom: 1px solid #a52a2a; /* Линия внизу ячейки */
+    padding: 10px;
+   }
+   
+div.gallery img {
+  height: 40px;
+  /*overflow:hidden;*/
+  
+}
+
+img#i {
+  height: 70px;
+  
+}
+
+div.gallery{
+  height: 40px;
+  width: 250px;
+  overflow: hidden; 
+  overflow: auto;
+  
+}
+div.big-image{
+  height: 300px;
+  overflow: hidden;
+  overflow: auto;
+}
+div.big-image img{
+  width: 100%;
+}
+.prev, .next{
+  position:absolute;  
+  width:40px;
+  height:40px;
+}
+
+.arrow-right, .arrow-left{
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  display: inline-block;
+  margin: 5px 5px;
+  }
+
+.arrow-left {
+  border-right-color: black;  
+  border-left: 0;
+  }
+
+.arrow-right {
+  border-left-color: black;  
+  border-right: 0;
+  }
